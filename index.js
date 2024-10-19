@@ -70,17 +70,31 @@ document.addEventListener('DOMContentLoaded', function () {
         skills.forEach(skill => {
             const skillElement = document.createElement('div');
             skillElement.classList.add('skill');
-            skillElement.innerHTML = `
-                <div class="skill-name">
-                    <div class="skill-icon">
-                        <i class="${skill.icon}"></i>
+            if (skill.icon) {
+                skillElement.innerHTML = `
+                    <div class="skill-name">
+                        <div class="skill-icon">
+                            <i class="${skill.icon}"></i>
+                        </div>
+                        ${skill.name}
                     </div>
-                    ${skill.name}
-                </div>
-                <div class="progress-bar">
-                    <div class="progress" style="max-width: ${skill.level};"></div>
-                </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="max-width: ${skill.level};"></div>
+                    </div>
+                `;
+            } else {
+                skillElement.innerHTML = `
+                    <div class="skill-name">
+                        <div class="skill-icon">
+                            <i style="transform: scale(0.025)">${skill.svg}</i>
+                        </div>
+                        ${skill.name}
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="max-width: ${skill.level};"></div>
+                    </div>
             `;
+            }
             skillsSection.appendChild(skillElement);
         });
     }
