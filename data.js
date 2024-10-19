@@ -102,7 +102,7 @@ export const discordBotProjects = [
     },
     { 
         name: "DiceRoller",
-        description: "A Dice Rolling Bot That Rolls Dice.",
+        description: "A Dice Rolling Bot That Rolls (Custom) Dice, Flip Coins.",
         image: "assets/rollDice.jpg",
         note: "This is the first bot I've created.",
         url: "https://discord.bots.gg/bots/1187069692783898786"
