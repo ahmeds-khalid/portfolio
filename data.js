@@ -67,11 +67,11 @@ export const discordBotProjects = [
         description: "Connect with players, find teammates, and discover your gaming buddy.",
         note: "I created this bot for those who don’t have anyone to play with, allowing them to team up in over 20 different games.",
         image: "assets/squadseek.png",
-        url: "https://discord.bots.gg/bots/1279165316311810080"
+        url: "https://www.behance.net/gallery/210867083/SquadSeek"
     },
     { 
         name: "Ticket Bot",
-        description: "A Ticket Bot that can receive support tickets and handle applications",
+        description: "A Ticket Bot that can receive and manage tickets and handle applications",
         image: "assets/ticketBot.png",
         note: "The client can customize the bot's responses and tailor its behavior to their preferences.",
         url: "https://www.behance.net/gallery/210539121/Ticket-Bot"
@@ -80,34 +80,34 @@ export const discordBotProjects = [
         name: "Memerator",
         description: "Summon a meme post from reddit by using a simple command.",
         image: "assets/meme.jpg",
-        note: "I built this for my friend's server, leveraging my skills and knowledge.",
-        url: "https://discord.bots.gg/bots/1267201343060447262"
+        note: "I built this for my friend's server.",
+        url: "https://www.behance.net/gallery/210866351/Memerator"
     },
     { 
         name: "Mathter",
         description: "Calculate your math equations, convert units and creates a math problem.",
         image: "assets/mathcalc.png",
-        url: "https://discord.bots.gg/bots/1266844297173405850"
+        url: "https://www.behance.net/gallery/210865701/Mathter"
     },
     { 
         name: "RPS Rumble",
         description: "A Bot Let You Play A Classic Rock Paper Scissors Round With Server's Members!",
         image: "assets/rpsChoice.png",
-        url: "https://discord.bots.gg/bots/1187407521095368715"
+        url: "https://www.behance.net/gallery/210864669/RPS-Rumble"
     },
     { 
         name: "EmojiType",
         description: "A Bot That Converts Text To Emojis With Characters.",
         image: "assets/emoji.png",
         note: "It includes features like polls, a leaderboard, and reminders.",
-        url: "https://discord.bots.gg/bots/1263900166273105960"
+        url: "https://www.behance.net/gallery/210863903/EmojiType"
     },
     { 
         name: "DiceRoller",
         description: "A Dice Rolling Bot That Rolls (Custom) Dice, Flip Coins.",
         image: "assets/rollDice.jpg",
         note: "This is the first bot I've created.",
-        url: "https://discord.bots.gg/bots/1187069692783898786"
+        url: "https://www.behance.net/gallery/210818423/DiceRoller-Bot"
     },
 ];
 
